@@ -1,0 +1,17 @@
+@import "@/app/styles/mixins.scss";
+
+.BookCard {
+  width: 250px;
+}
+
+.info {}
+
+.image {
+  width: 130px;
+  height: 200px;
+}
+
+.title {
+  max-width: 100%;
+  @include text-wrap-off;
+}

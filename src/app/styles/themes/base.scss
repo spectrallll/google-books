@@ -1,0 +1,23 @@
+.app_light_theme {
+  --bg-color: #e8e8ea;
+  --secondary-bg-color: #fff;
+  --primary-color: #333;
+  --secondary-color: #6f7577;
+  --inverted-color: #181818;
+
+  // skeleton
+  --skeleton-color: #fff;
+  --skeleton-shadow: rgba(0 0 0 / 20%);
+  --skeleton-background: var(--bg-color);
+
+  // card
+  --card-bg: rgba(0 0 0 / 5%);
+
+  // listbox
+  --listbox-bg: var(--secondary-bg-color);
+
+  // Colors overlay
+  --overlay-color: rgba(0 0 0 / 50%);
+  --red-light: #f70101;
+  --red-dark: #b10404;
+}

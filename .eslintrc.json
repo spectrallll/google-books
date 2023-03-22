@@ -2,7 +2,8 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "jest": true
+        "jest": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -10,6 +11,12 @@
         "plugin:@typescript-eslint/recommended",
         "prettier"
     ],
+    "globals": {
+        "__IS_DEV__": true,
+        "__API__": true,
+        "__PROJECT__": true,
+        "__API_KEY": true
+    },
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
@@ -27,6 +34,7 @@
     "rules": {
         "react/react-in-jsx-scope": "off",
         "quotes": ["error", "double"],
-        "no-duplicate-imports": "error"
+        "no-duplicate-imports": "error",
+        "@typescript-eslint/no-var-requires": "off"
     }
 }

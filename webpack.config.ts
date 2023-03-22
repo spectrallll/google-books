@@ -8,9 +8,9 @@ export function getApiUrl(mode: BuildMode, apiUrl?: string) {
     return apiUrl;
   }
   if (mode === "production") {
-    return "/api";
+    return "https://www.googleapis.com/books/v1/";
   }
-  return "http://localhost:8000";
+  return "https://www.googleapis.com/books/v1/";
 }
 export default (env: BuildEnv) => {
   const paths: BuildPaths = {
@@ -23,6 +23,7 @@ export default (env: BuildEnv) => {
   const mode = env?.mode || "development";
   const PORT = env?.port || 3000;
   const apiUrl = getApiUrl(mode, env?.apiUrl);
+  const apiKey = env?.apiKey || "";
 
   const isDev = mode === "development";
 
@@ -32,6 +33,7 @@ export default (env: BuildEnv) => {
     isDev,
     port: PORT,
     apiUrl,
+    apiKey,
     project: "frontend",
   });
 

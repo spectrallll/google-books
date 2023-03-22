@@ -2,7 +2,7 @@ import { RuleSetRule, Configuration, DefinePlugin } from "webpack";
 import { buildCssLoader } from "../build/loaders/buildCssLoader";
 import path from "path";
 export default {
-  stories: ["../../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ["../../src/**/story.tsx"],
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -50,6 +50,7 @@ export default {
         __IS_DEV__: JSON.stringify(true),
         __API__: JSON.stringify("https://api.ru"),
         __PROJECT__: JSON.stringify("storybook"),
+        __API_KEY: JSON.stringify("some_key")
       }),
     );
     // Return the altered config
