@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import BookSearch from "./index";
+import BookSearch from "./page";
 import { StoreDecorator } from "@/shared/config/storybook/store-decorator";
 import { baseImg } from "@/shared/const/assets";
 

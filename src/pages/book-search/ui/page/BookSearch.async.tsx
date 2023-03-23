@@ -1,3 +1,3 @@
 import { lazy } from "react";
 
-export const BookSearchPageAsync = lazy(() => import("./index"));
+export const BookSearchPageAsync = lazy(() => import("./page"));

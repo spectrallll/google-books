@@ -1,10 +1,6 @@
-@import "@/app/styles/mixins.scss";
-
 .BookCard {
   width: 250px;
 }
-
-.info {}
 
 .image {
   width: 130px;
@@ -13,5 +9,7 @@
 
 .title {
   max-width: 100%;
-  @include text-wrap-off;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

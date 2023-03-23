@@ -17,9 +17,9 @@ export const BookDetails = (props: BookDetailsProps) => {
       <div className={styles.imageWrapper}>
         <AppImage src={data?.image} />
       </div>
-      <VStack className={styles.infoWrapper} gap={"16"}>
+      <VStack data-testid={"BookDetails.Info"} className={styles.infoWrapper} gap={"16"}>
         {data?.categories && <Text text={data?.categories.join(" / ")} />}
-        <Text title={data?.title} size={TextSize.L} text={data?.authors && data?.authors.join(", ")} />
+        <Text data-testid={"BookDetails.Title"} title={data?.title} size={TextSize.L} text={data?.authors && data?.authors.join(", ")} />
         <Text text={data?.description} />
       </VStack>
     </VStack>

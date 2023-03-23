@@ -34,11 +34,12 @@ export const SearchBooks = (props: SearchBooksProps) => {
     <form onSubmit={onSubmit}>
       <HStack className={className} align={"center"} gap={"8"} max>
         <Input
+          data-testid={"SearchBooks.Input"}
           placeholder={"Book, series, author, genre and etc."}
           onChange={onChange}
           value={searchValue}
         />
-        <Button theme={ButtonTheme.CLEAR} type={"submit"}>
+        <Button data-testid={"SearchBooks.Button"} theme={ButtonTheme.CLEAR} type={"submit"}>
           <Text text={"Search"} size={TextSize.L} />
         </Button>
       </HStack>

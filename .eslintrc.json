@@ -35,6 +35,7 @@
         "react/react-in-jsx-scope": "off",
         "quotes": ["error", "double"],
         "no-duplicate-imports": "error",
-        "@typescript-eslint/no-var-requires": "off"
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-namespace": "off"
     }
 }

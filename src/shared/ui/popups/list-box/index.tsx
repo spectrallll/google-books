@@ -24,6 +24,7 @@ interface ListBoxProps<T extends string> {
   direction?: DropdownDirection;
   label?: string;
   labelClassName?: string;
+  dataTestId?: string;
 }
 
 export const ListBox = <T extends string>(props: ListBoxProps<T>) => {
@@ -37,10 +38,11 @@ export const ListBox = <T extends string>(props: ListBoxProps<T>) => {
     labelClassName,
     direction = "bottom right",
     label,
+    dataTestId
   } = props;
 
   return (
-    <HStack gap="4" data-testid={"ListBox"}>
+    <HStack gap="4">
       {label && (
         <span
           className={classNames("", { [popupStyles.disabled]: readonly }, [labelClassName])}
@@ -49,6 +51,7 @@ export const ListBox = <T extends string>(props: ListBoxProps<T>) => {
         </span>
       )}
       <HListBox
+        data-testid={dataTestId}
         disabled={readonly}
         as="div"
         className={classNames(

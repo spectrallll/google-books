@@ -19,6 +19,7 @@ export const LoadMoreBooksButton = (props: LoadMoreBooksButtonProps) => {
   }
 
   return <Button
+    data-testid={"LoadNextData.Button"}
     className={props.className}
     theme={ButtonTheme.OUTLINE}
     disabled={isLoading}

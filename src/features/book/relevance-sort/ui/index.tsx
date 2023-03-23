@@ -34,6 +34,7 @@ export const BookRelevanceSort = (props: BookRelevanceSort) => {
 
   return (
     <ListBox
+      dataTestId={"RelevanceSort.ListBox"}
       className={props.className}
       onChange={onChange}
       value={sort}

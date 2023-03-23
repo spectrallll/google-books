@@ -1,0 +1,108 @@
+{
+  "kind": "books#volume",
+  "id": "uqGAEAAAQBAJ",
+  "etag": "7lu/JaGkycU",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/uqGAEAAAQBAJ",
+  "volumeInfo": {
+    "title": "Тихий Дон. Том 2",
+    "authors": [
+      "Михаил Шолохов"
+    ],
+    "publisher": "Litres",
+    "publishedDate": "2022-08-09",
+    "description": "«Тихий Дон» – масштабное эпическое полотно, повествующее о донском казачестве в самый противоречивый, переломный период истории нашей страны – кровавой Первой мировой и братоубийственной Гражданской войны, когда, по словам самого Шолохова, «в смертной драке брат идет на брата, сын – на отца». Что же происходило в душах людей в это смутное время, как получилось, что самые родные, близкие люди стали по разные стороны баррикад и превратились в смертельных врагов?По глубине осмысления действительности, удивительной точности в описании характеров этому произведению, пожалуй, нет равных. Книга, о которой говорят и спорят по сей день!",
+    "industryIdentifiers": [
+      {
+        "type": "ISBN_10",
+        "identifier": "5044581275"
+      },
+      {
+        "type": "ISBN_13",
+        "identifier": "9785044581272"
+      }
+    ],
+    "readingModes": {
+      "text": true,
+      "image": true
+    },
+    "pageCount": 1031,
+    "printedPageCount": 1031,
+    "printType": "BOOK",
+    "categories": [
+      "Fiction / General",
+      "Literary Collections / General"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.3.0.preview.3",
+    "panelizationSummary": {
+      "containsEpubBubbles": false,
+      "containsImageBubbles": false
+    },
+    "imageLinks": {
+      "smallThumbnail": "http://books.google.com/books/publisher/content?id=uqGAEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72jdrtgb9WbOBqAxfjOAWPoXm0WmsrEpu8T0z9cBeoZpZydgrgCxd5YpBlnFPij4z7xOGIdcHZIP1slxfzsnYcDXlk050kgYPSKZh4kvEOFmhekzBuy8aAMGQ6g_kntsiqjj8o5&source=gbs_api",
+      "thumbnail": "http://books.google.com/books/publisher/content?id=uqGAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73-msPmqkMHwKqLjKKwEGElUSOb-NmR6hNnFFYNDAanlVRtc0vBblhw4fNEuTRvKktRVSslf3GzUcQUuGfeu0O_ot1zuWJtluo6nMi_bzsVV-J8_6FYmRfZ-S9Pj4wiS-SjAh49&source=gbs_api",
+      "small": "http://books.google.com/books/publisher/content?id=uqGAEAAAQBAJ&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE72bhUvETTCzH2lKAmGXr6jNOE0FXR8xoWz4YzNX17pJP7UrjWdVe1rop46mup-Z7HvFPFcIiqATwM1wScJixuZ4rAKJVTr7dEm9H0O7KACoeqR498p-rjsOrDYcxNhy2FzH0F6K&source=gbs_api",
+      "medium": "http://books.google.com/books/publisher/content?id=uqGAEAAAQBAJ&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE72_yc_xV4n1cYDqRjuC-vhfalhLaNnnVJz2NaqpYUiTzqI2bsR2kie68qsBAaLTMl5fkP00qWsRgex_xd_qxDvwAEWiB_vKY6ul6WG-19L4WjtFysdMjc9kuqLp_5s3zeHUKcM-&source=gbs_api",
+      "large": "http://books.google.com/books/publisher/content?id=uqGAEAAAQBAJ&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE72P7OfMwMj7_M1GlleFCI846BBB8PI36QRwIsWf04Ttse1QS-sFzeMWP0AyyvZMNBKGAoiWRy1Xn1JE-v0GHs5jQD-CqeXRhgB6lanyUQ7djgMzLTwOdmrxJJn1H6bXhNCLchFa&source=gbs_api",
+      "extraLarge": "http://books.google.com/books/publisher/content?id=uqGAEAAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE73HpE5FzGevm4df3jmZcNd4STHiURlmtgPqFN_nX9pC0IrpPUQX0FbPvgeHBhiOQwBPsODxEY5X5pLrbv9hmXPQMSCkF7B9IBxoNPHykYLaubnWtRDE35GTTXKZlbdenDt2uRKl&source=gbs_api"
+    },
+    "language": "ru",
+    "previewLink": "http://books.google.ru/books?id=uqGAEAAAQBAJ&hl=&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=uqGAEAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=uqGAEAAAQBAJ"
+  },
+  "layerInfo": {
+    "layers": [
+      {
+        "layerId": "geo",
+        "volumeAnnotationsVersion": "5"
+      }
+    ]
+  },
+  "saleInfo": {
+    "country": "RU",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+      "amount": 323.75,
+      "currencyCode": "RUB"
+    },
+    "retailPrice": {
+      "amount": 291.38,
+      "currencyCode": "RUB"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=uqGAEAAAQBAJ&rdid=book-uqGAEAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+      {
+        "finskyOfferType": 1,
+        "listPrice": {
+          "amountInMicros": 323750000,
+          "currencyCode": "RUB"
+        },
+        "retailPrice": {
+          "amountInMicros": 291380000,
+          "currencyCode": "RUB"
+        }
+      }
+    ]
+  },
+  "accessInfo": {
+    "country": "RU",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+      "isAvailable": true,
+      "acsTokenLink": "http://books.google.ru/books/download/%D0%A2%D0%B8%D1%85%D0%B8%D0%B9_%D0%94%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BC_2-sample-epub.acsm?id=uqGAEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+      "isAvailable": true,
+      "acsTokenLink": "http://books.google.ru/books/download/%D0%A2%D0%B8%D1%85%D0%B8%D0%B9_%D0%94%D0%BE%D0%BD_%D0%A2%D0%BE%D0%BC_2-sample-pdf.acsm?id=uqGAEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=uqGAEAAAQBAJ&hl=&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+  }
+}

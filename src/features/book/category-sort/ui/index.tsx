@@ -53,6 +53,7 @@ export const BookCategorySort = (props: BookCategorySort) => {
 
   return (
     <ListBox
+      dataTestId={"CategorySort.ListBox"}
       className={className}
       onChange={onChange}
       value={categoryField}

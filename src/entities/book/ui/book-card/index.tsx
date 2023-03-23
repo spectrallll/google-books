@@ -25,6 +25,7 @@ export const BookCard = (props: BookCardProps) => {
 
   return (
       <Card
+        data-testid={"BookCard"}
         className={classNames(styles.BookCard, {}, [className])}
       >
         <Link to={getRouteBookDetails(data.id)} target={target}>
@@ -36,7 +37,7 @@ export const BookCard = (props: BookCardProps) => {
             fallback={<Skeleton width={"125px"} height={"200px"} border={"16px"} />}
             border={"16px"}
           />
-          <VStack gap={"4"} justify={"start"} max className={styles.info}>
+          <VStack gap={"4"} justify={"start"} max>
             <Text text={data.categories && data.categories.join(" ")} textTag={"span"} />
             <Text title={data?.title} headerTag={"span"} className={styles.title} />
             <Text text={data.authors && data?.authors.join(" ")} textTag={"span"} />

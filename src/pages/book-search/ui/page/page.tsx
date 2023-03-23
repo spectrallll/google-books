@@ -28,7 +28,7 @@ const BookSearch = (props: BookSearchProps) => {
   }
 
   return (
-    <div className={classNames(styles.BookSearch, {}, [props.className])}>
+    <div className={classNames("", {}, [props.className])}>
       <Container>
         <VStack gap={"32"} max>
           <Text size={TextSize.L} title={"Search for Books"} />
