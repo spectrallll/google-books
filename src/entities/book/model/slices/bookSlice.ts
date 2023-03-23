@@ -23,7 +23,7 @@ export const bookModel = createSlice({
     ids: [],
     entities: {},
     search: "",
-    sort: BookSortField.NEWEST,
+    sort: BookSortField.RELEVANCE,
     categoryField: BookCategoryField.ALL,
     hasMore: true,
     maxResults: 30,
