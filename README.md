@@ -6,11 +6,30 @@ https://github.com/spectrallll/future-group.git
 ```
 2. Run docker
 ```
-docker-compose up
+yarn install
+yarn start
 ```
 3. Application available at
 ```
-localhost:8080
+localhost:3000
+```
+4. Tests
+```
+На скриншотные тесты можно сгенерировать отчёт - yarn test:ui:report,
+далее запустить html из .loki/report.html
+На юнит тесты так же генерируется отчёт.
+```
+```
+yarn test:unit - юнит тесты
+yarn test:e2e - e2e тесты Cypress
+yarn test:ui - скриншотные тесты. запускается yarn storybook, потом yarn test:ui
+```
+5. Config
+```
+build - конфигурация Webpack
+jest - конфигурация Jest
+storybook - конфигурация Storybook
+babel - плагины для Babel
 ```
 
 ### Архитектура: [*Feature-Sliced Design*](https://feature-sliced.design/ru/)
