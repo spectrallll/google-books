@@ -4,7 +4,7 @@
 ```
 https://github.com/spectrallll/future-group.git
 ```
-2. Run docker
+2. Run app
 ```
 yarn install
 yarn start
