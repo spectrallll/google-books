@@ -3,9 +3,9 @@ FROM node:17-alpine as builder
 WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
-RUN npm ci
+RUN yarn install
 COPY . .
-RUN npm run build:prod
+RUN yarn build:prod
 
 #Step 2
 FROM nginx:1.21.0-alpine as production
