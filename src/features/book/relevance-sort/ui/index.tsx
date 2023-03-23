@@ -1,10 +1,10 @@
 import React from "react";
-import { ListBox } from "@/shared/ui/popups/list-box";
 import { bookModelActions, BookSortField, getBookSort } from "@/entities/book";
 import styles from "./styles.module.scss";
 import { useAppDispatch } from "@/shared/lib/hooks/useAppDispatch";
 import { useSelector } from "react-redux";
 import { classNames } from "@/shared/lib/class-names";
+import { Select } from "@/shared/ui/select";
 
 interface BookRelevanceSort {
   className?: string;
@@ -33,15 +33,14 @@ export const BookRelevanceSort = (props: BookRelevanceSort) => {
   }
 
   return (
-    <ListBox
-      dataTestId={"RelevanceSort.ListBox"}
+    <Select
+      dataTestId={"RelevanceSort.Select"}
       className={props.className}
       onChange={onChange}
       value={sort}
       label={"Sorting by"}
       labelClassName={classNames(styles.label, {}, [props.labelClassName])}
-      items={relevanceOptions}
-      defaultValue={BookSortField.RELEVANCE}
+      options={relevanceOptions}
     />
   );
 };

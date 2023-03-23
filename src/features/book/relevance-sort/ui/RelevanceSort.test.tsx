@@ -15,16 +15,10 @@ describe("features/book/relevance-sort", () => {
     })
   })
   test("relevance sort", async () => {
-    await userEvent.click(
-      screen.getByTestId("ListBox.Button")
-    )
     expect(
-      screen.getByTestId("ListBox.Options")
-    ).toBeInTheDocument();
-    await userEvent.click(
-      screen.getByText(BookSortField.NEWEST)
-    )
-    expect(screen.queryByText(BookSortField.RELEVANCE)).not.toBeInTheDocument();
-    expect(screen.getByText(BookSortField.NEWEST)).toBeInTheDocument();
+      screen.getByTestId("RelevanceSort.Select")
+    ).toHaveValue(BookSortField.RELEVANCE);
+    await userEvent.selectOptions(screen.getByTestId("RelevanceSort.Select"), BookSortField.NEWEST);
+    expect(screen.getByTestId("RelevanceSort.Select")).toHaveValue(BookSortField.NEWEST);
   })
 })

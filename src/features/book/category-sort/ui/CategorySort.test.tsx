@@ -15,16 +15,8 @@ describe("features/book/category-sort", () => {
     })
   })
   test("category sort", async () => {
-    await userEvent.click(
-      screen.getByTestId("ListBox.Button")
-    )
-    expect(
-      screen.getByTestId("ListBox.Options")
-    ).toBeInTheDocument();
-    await userEvent.click(
-      screen.getByText(BookCategoryField.BIOGRAPHY)
-    )
-    expect(screen.queryByText(BookCategoryField.ALL)).not.toBeInTheDocument();
-    expect(screen.getByText(BookCategoryField.BIOGRAPHY)).toBeInTheDocument();
+    expect(screen.getByTestId("CategorySort.Select")).toHaveValue(BookCategoryField.ALL);
+    await userEvent.selectOptions(screen.getByTestId("CategorySort.Select"), BookCategoryField.BIOGRAPHY)
+    expect(screen.getByTestId("CategorySort.Select")).toHaveValue(BookCategoryField.BIOGRAPHY);
   })
 })
